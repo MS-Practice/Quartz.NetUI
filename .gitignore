@@ -1,5 +1,12 @@
+
+[Oo]bj/
+[Bb]in/
+Properties/
+
+*.user
+
+/.vs/
 /Quartz.NET.Task.Service
 /Quartz.NET
 /QuartzSettings
-/Quartz.NET.Web/bin
-/Quartz.NET.Web/obj
+

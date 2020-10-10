@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quartz.NET.WindowsService",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quartz.NET.Web", "Quartz.NET.Web\Quartz.NET.Web.csproj", "{90D3F2A0-FBE5-4E74-9692-C14305E6934F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessClient", "BusinessClient\BusinessClient.csproj", "{33003FC2-850F-448A-AE1C-1E98459E7489}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessClient", "BusinessClient\BusinessClient.csproj", "{33003FC2-850F-448A-AE1C-1E98459E7489}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzExampleApp", "QuartzExampleApp\QuartzExampleApp.csproj", "{7262903A-B315-42FF-994E-6F3196A48F02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{33003FC2-850F-448A-AE1C-1E98459E7489}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33003FC2-850F-448A-AE1C-1E98459E7489}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33003FC2-850F-448A-AE1C-1E98459E7489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7262903A-B315-42FF-994E-6F3196A48F02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7262903A-B315-42FF-994E-6F3196A48F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7262903A-B315-42FF-994E-6F3196A48F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7262903A-B315-42FF-994E-6F3196A48F02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

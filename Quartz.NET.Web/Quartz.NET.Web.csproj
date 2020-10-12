@@ -15,7 +15,9 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.4" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
-    <PackageReference Include="Quartz" Version="3.0.7" />
+    <PackageReference Include="MySql.Data" Version="8.0.21" />
+    <PackageReference Include="Quartz" Version="3.2.0" />
+    <PackageReference Include="Quartz.Serialization.Json" Version="3.2.0" />
   </ItemGroup>
 
   <ItemGroup>

@@ -14,7 +14,8 @@ using Quartz.Impl;
 using Quartz.NET.Web.Extensions;
 using Quartz.NET.Web.Filters;
 using Quartz.NET.Web.Utility;
-using System;   
+using System;
+using System.Collections.Specialized;
 
 namespace Quartz.NET.Web
 {
@@ -65,7 +66,13 @@ namespace Quartz.NET.Web
             services.AddSession().AddMemoryCache();
             services.AddSingleton<IPathProvider, PathProvider>();
             services.AddTransient<HttpResultfulJob>();
-            services.AddSingleton<ISchedulerFactory, StdSchedulerFactory>();
+            services.AddSingleton<ISchedulerFactory>((provider)=> {
+                var sectionConfig = Configuration.GetSection("Quartz");
+                var properties = new NameValueCollection {
+                    ["quartz.jobStore.type"] = sectionConfig.GetValue<string>("quartz.jobStore.type"),
+                };
+                return new StdSchedulerFactory();
+            });
             services.AddSingleton<Spi.IJobFactory, IOCJobFactory>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
          

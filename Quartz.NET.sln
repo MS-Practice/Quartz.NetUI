@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quartz.NET.Web", "Quartz.NE
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessClient", "BusinessClient\BusinessClient.csproj", "{33003FC2-850F-448A-AE1C-1E98459E7489}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzExampleApp", "QuartzExampleApp\QuartzExampleApp.csproj", "{7262903A-B315-42FF-994E-6F3196A48F02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuartzExampleApp", "QuartzExampleApp\QuartzExampleApp.csproj", "{7262903A-B315-42FF-994E-6F3196A48F02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
